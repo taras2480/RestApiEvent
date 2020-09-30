@@ -1,0 +1,92 @@
+{
+  "_embedded" : {
+    "events" : [ {
+      "resourceId" : 1,
+      "name" : "Spring Data Rest Training",
+      "description" : "The Best Course Ever",
+      "startTime" : "2017-08-29T17:46:18+03:00",
+      "endTime" : "2017-08-29T19:46:18+03:00",
+      "zoneId" : "US/Central",
+      "started" : null,
+      "venue" : {
+        "name" : "Bharaths Consulting and Training INC",
+        "streetAddress" : "12345",
+        "streetAddress2" : "Spice Wood Springs",
+        "city" : "Austin",
+        "state" : "Texas",
+        "country" : "United States",
+        "postalCode" : "78750",
+        "resourceId" : 1
+      },
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/eventmanagement-api/events/1"
+        },
+        "event" : {
+          "href" : "http://localhost:8080/eventmanagement-api/events/1"
+        },
+        "organizer" : {
+          "href" : "http://localhost:8080/eventmanagement-api/events/1/organizer"
+        },
+        "participants" : {
+          "href" : "http://localhost:8080/eventmanagement-api/events/1/participants"
+        }
+      }
+    }, {
+      "resourceId" : 2,
+      "name" : "Spring Data Rest Training",
+      "description" : "The Best Course Ever",
+      "startTime" : "2017-08-29T17:46:18+03:00",
+      "endTime" : "2017-08-29T19:46:18+03:00",
+      "zoneId" : "US/Central",
+      "started" : null,
+      "venue" : {
+        "name" : "Bharaths Consulting and Training INC",
+        "streetAddress" : "12345",
+        "streetAddress2" : "Spice Wood Springs",
+        "city" : "Austin",
+        "state" : "Texas",
+        "country" : "United States",
+        "postalCode" : "78750",
+        "resourceId" : 2
+      },
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/eventmanagement-api/events/2"
+        },
+        "event" : {
+          "href" : "http://localhost:8080/eventmanagement-api/events/2"
+        },
+        "organizer" : {
+          "href" : "http://localhost:8080/eventmanagement-api/events/2/organizer"
+        },
+        "participants" : {
+          "href" : "http://localhost:8080/eventmanagement-api/events/2/participants"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "first" : {
+      "href" : "http://localhost:8080/eventmanagement-api/events?page=0&size=2"
+    },
+    "self" : {
+      "href" : "http://localhost:8080/eventmanagement-api/events"
+    },
+    "next" : {
+      "href" : "http://localhost:8080/eventmanagement-api/events?page=1&size=2"
+    },
+    "last" : {
+      "href" : "http://localhost:8080/eventmanagement-api/events?page=9&size=2"
+    },
+    "profile" : {
+      "href" : "http://localhost:8080/eventmanagement-api/profile/events"
+    }
+  },
+  "page" : {
+    "size" : 2,
+    "totalElements" : 20,
+    "totalPages" : 10,
+    "number" : 0
+  }
+}
