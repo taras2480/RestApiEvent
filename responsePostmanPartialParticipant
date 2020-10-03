@@ -1,0 +1,54 @@
+{
+  "_embedded" : {
+    "participants" : [ {
+      "name" : "John ",
+      "checkedIn" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/eventmanagement-api/participants/1"
+        },
+        "participant" : {
+          "href" : "http://localhost:8080/eventmanagement-api/participants/1{?projection}",
+          "templated" : true
+        },
+        "event" : {
+          "href" : "http://localhost:8080/eventmanagement-api/participants/1/event{?projection}",
+          "templated" : true
+        }
+      }
+    }, {
+      "name" : "John1 ",
+      "checkedIn" : false,
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost:8080/eventmanagement-api/participants/3"
+        },
+        "participant" : {
+          "href" : "http://localhost:8080/eventmanagement-api/participants/3{?projection}",
+          "templated" : true
+        },
+        "event" : {
+          "href" : "http://localhost:8080/eventmanagement-api/participants/3/event{?projection}",
+          "templated" : true
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/eventmanagement-api/participants?projection=partialParticipant"
+    },
+    "profile" : {
+      "href" : "http://localhost:8080/eventmanagement-api/profile/participants"
+    },
+    "search" : {
+      "href" : "http://localhost:8080/eventmanagement-api/participants/search"
+    }
+  },
+  "page" : {
+    "size" : 2,
+    "totalElements" : 2,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}
